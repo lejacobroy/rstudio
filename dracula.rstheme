@@ -3127,7 +3127,10 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
-
+/* Vignette code color */
+code span.fu {
+	color: #FAFBFF;
+}
 
 /*Import text data import options*/
 .GEL-OVUBBUD {
