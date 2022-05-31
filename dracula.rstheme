@@ -3015,6 +3015,11 @@ input#rstudio_command_palette_search {
 	background: #252631;
 }
 
+	/* Back button - the background iamge is white, so set dark text */
+.GEL-OVUBJ2, .GEL-OVUBJ2:focus {               
+	color: #252631 ! important
+}
+
 /* Keyboard shortcuts menu */
    /* Warning rows - e.g. confliting keyboard shortcuts */
 .GEL-OVUBFX{
