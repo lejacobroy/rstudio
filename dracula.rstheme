@@ -5,6 +5,7 @@
 /* Red: #ff5555 */
 /* Normal background: #252631 */
 /* Lighter background: #282a36 */
+/* Selections: #6272a4 */
 
 
 .ace_gutter {
@@ -3043,7 +3044,7 @@ input#rstudio_command_palette_search {
 }
 
 
-/* Pacakage updater */
+/* Pacakage updater ----------------------------------------------- */
 
     /* Alternating light/dark rows in package updater - also for shortcut keyboards*/
 .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC {
@@ -3095,7 +3096,7 @@ input#rstudio_command_palette_search {
 	border: none;
 }
 
-/*Import Excel data import options*/
+/* Import Excel data window ----------------------------------------- */
 .GEL-OVUBOVD {
     border: 1px solid #252631;
     background-color: #252631;
@@ -3135,12 +3136,8 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
-/* Vignette code color */
-code span.fu {
-	color: #FAFBFF;
-}
 
-/*Import text data import options*/
+/*Import text data import options ------------------------------------------- */
 .GEL-OVUBBUD {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -3169,7 +3166,7 @@ code span.fu {
 	background-color: #252631;
 }
 
-/*Import statistical data import options*/
+/*Import statistical data import options --------------------------------------- */
 .GEL-OVUBBUD {
     border: 1px solid #999;
     background-color: #252631;
@@ -3214,4 +3211,31 @@ code span.fu {
 
 .rstudio-themes-flat.editor_dark .ace_editor_theme .GCHYANPCGI {
     color: #f8f8f2;
+}
+
+/* Vignette code color ----------------------------------------------------- */
+code span.fu {
+	color: #FAFBFF;
+}
+
+/* Insert citations - visual markdown editor -------------------------------- */
+
+.rstudio-themes-flat .dialogContent > table div, .rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] table tbody td {
+	background-color: #252631;
+	color: white !important;
+	border-color: #282a36 !important;
+}
+
+.pm-default-theme .pm-text-color {
+	background: none !important;
+}
+
+	/* Selected citation source */
+.pm-default-theme .pm-selected-navigation-tree-item {
+	background-color:  #6272a4 !important;
+}
+
+.rstudio-themes-flat .dialogContent button {
+	background-color: #252631;
+	color: white;
 }
