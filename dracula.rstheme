@@ -1,6 +1,12 @@
 /* rs-theme-name: Dracula */
 /* rs-theme-is-dark: TRUE */
 
+
+/* Red: #ff5555 */
+/* Normal background: #252631 */
+/* Lighter background: #282a36 */
+
+
 .ace_gutter {
   background: #282A36;
   color: #4b5578;
@@ -3009,53 +3015,47 @@ input#rstudio_command_palette_search {
     word-wrap: break-word;
 }
 
+/* New rmarkdown document */
+	/* Text describing each time of output format */
+.GEL-OVUBEAB {
+	color: white
+}
 
 /* New project window */
 .GEL-OVUBL2 {
 	background: #252631;
 }
 
-	/* Back button - the background iamge is white, so set dark text */
+	/* Back button - the background image is white, so set dark text */
 .GEL-OVUBJ2, .GEL-OVUBJ2:focus {               
 	color: #252631 ! important
 }
 
 /* Keyboard shortcuts menu */
-   /* Warning rows - e.g. confliting keyboard shortcuts */
-.GEL-OVUBFX{
-	background-color: #ff5555;
+	/* Shortcut conflict warning */
+.GEL-OVUBFX {
+	background-color: #ff5555 !important
 }
-
+	
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX{
-	background-color: #6272a4 !important;
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX{
+	background-color: #6272a4;
 }
 
-.GEL-OVUBB-{
-	background-color: #6272a4 !important;
-}
 
 /* Pacakage updater */
 
-    /* Alternating light/dark rows in package updater */
-.GEL-OVUBIX{
+    /* Alternating light/dark rows in package updater - also for shortcut keyboards*/
+.GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC {
 	background-color: #252631;
-    border: none;
+    border: none !important;
+    border_bottom: none !important;
 }
 
-.GEL-OVUBDHC{
-	background-color: #252631 !important;
-	border: none;
-}
-
-.GEL-OVUBHY{
+.GEL-OVUBHX, .GEL-OVUBHY, .GEL-OVUBFHC{
 	background-color: #282a36;
-	border: none;
-}
-
-.GEL-OVUBDIC{
-	background-color:  #282a36;
-    border: none;
+	border: none !important;
+	border_bottom: none !important;
 }
 
 	/* Removing white borders from package updater */
@@ -3073,22 +3073,25 @@ input#rstudio_command_palette_search {
 }
 
 /* Quit R - Unsaved files warning window */
-
-.GEL-OVUBFUB {
+/* Empty space in file list */
+.GEL-OVUBFUB, .GEL-OVUBFVB, .GEL-OVUBHVB {
 	background-color: #252631 !important;
 	border: none;
 }
 
-.GEL-OVUBFVB {
-	background-color: #282a36;
+
+.GEL-OVUBAWB, .GEL-OVUBCWB{
+	background-color: #252631 !important;
+}
+
+/* Rows with unsaved files */
+.GEL-OVUBHUB, .GEL-OVUBOUB, .GEL-OVUBJVB, .GEL-OVUBBVB {
+	background-color: #252631 !important;
 	border: none;
 }
 
-.GEL-OVUBAWB {
-	background-color: #252631;
-}
-
-.GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB {
+/* Individual row cells - remove white border */
+.GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB , .GEL-OVUBIUB, .GEL-OVUBPUB, .GEL-OVUBKVB, .GEL-OVUBCVB, .GEL-OVUBAVB {
 	border: none;
 }
 
