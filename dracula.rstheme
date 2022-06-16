@@ -3019,7 +3019,7 @@ input#rstudio_command_palette_search {
 /* New rmarkdown document */
 	/* Text describing each time of output format */
 .GEL-OVUBEAB {
-	color: white
+	color: #f8f8f2
 }
 
 /* New project window */
@@ -3045,15 +3045,8 @@ input#rstudio_command_palette_search {
 
 
 /* Pacakage updater ----------------------------------------------- */
-
-    /* Alternating light/dark rows in package updater - also for shortcut keyboards*/
-.GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC {
-	background-color: #252631;
-    border: none !important;
-    border_bottom: none !important;
-}
-
-.GEL-OVUBHX, .GEL-OVUBHY, .GEL-OVUBFHC{
+/* Rows of table showing package updates, also for keyboard shortcuts */
+.GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GEL-OVUBHX, .GEL-OVUBHY, .GEL-OVUBFHC, .GEL-OVUBDHC {
 	background-color: #282a36;
 	border: none !important;
 	border_bottom: none !important;
@@ -3068,7 +3061,7 @@ input#rstudio_command_palette_search {
 	border: none;
 }
 
-	/* Background color in package updates */
+	/* Background color below table in package updates */
 .GEL-OVUBBHC {
 	background: #252631;
 }
@@ -3220,22 +3213,37 @@ code span.fu {
 
 /* Insert citations - visual markdown editor -------------------------------- */
 
-.rstudio-themes-flat .dialogContent > table div, .rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] table tbody td {
+.pm-navigation-tree, .pm-insert-citation-source-panel-list, .pm-tag-input-container, .pm-textinput-container {
 	background-color: #252631;
-	color: white !important;
+	color: #f8f8f2 !important;
+	border-color: #282a36 !important;
+} 
+
+/* Navigate sources (left menu)*/
+.pm-default-theme .pm-navigation-tree-item {
+	border-color: #282a36 !important;
+}
+
+.pm-default-theme .pm-block-border-color {
 	border-color: #282a36 !important;
 }
 
 .pm-default-theme .pm-text-color {
 	background: none !important;
+	color: #f8f8f2 !important;
 }
 
-	/* Selected citation source */
-.pm-default-theme .pm-selected-navigation-tree-item {
+.pm-insert-citation-source-panel-item-icon {
+	background: #282a36;
+}
+
+	/* Selected items */
+.pm-default-theme .pm-selected-navigation-tree-item, .pm-default-theme .pm-list-item-selected {
 	background-color:  #6272a4 !important;
+	border-color: #282a36 !important;
 }
 
 .rstudio-themes-flat .dialogContent button {
 	background-color: #252631;
-	color: white;
+	color: #f8f8f2;
 }
