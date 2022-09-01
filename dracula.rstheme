@@ -3023,9 +3023,10 @@ input#rstudio_command_palette_search {
 }
 
 /* New project window */
-.GEL-OVUBL2 {
-	background: #252631;
+.GEL-OVUBL2, .GND-IWGDH3 {
+	background: #252631 !important;
 }
+
 
 	/* Back button - the background image is white, so set dark text */
 .GEL-OVUBJ2, .GEL-OVUBJ2:focus {               
