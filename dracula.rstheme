@@ -2978,7 +2978,7 @@ input#rstudio_command_palette_search {
 }
 
 /* Choose layout of panels */
-.GCHYANPCKRB td.GCHYANPCKRB {
+.GCHYANPCKRB td.GCHYANPCKRB, .GND-IWGDMTB td.GND-IWGDMTB {
     background-color: #252631;
     vertical-align: top;
     padding: 0;
@@ -2994,7 +2994,7 @@ input#rstudio_command_palette_search {
     border-color: #6a6a6a !important;
 }
 
-/* Switch projects window */
+/* Switch projects window ------------------------------------------------- */
 .GCHYANPCMUB {
     width: 400px;
     height: 170px;
@@ -3022,31 +3022,39 @@ input#rstudio_command_palette_search {
 	color: #f8f8f2
 }
 
-/* New project window */
-.GEL-OVUBL2 {
+/* New project window ---------------------------------------------------- */
+.GEL-OVUBL2, .GND-IWGDH3 {
 	background: #252631;
 }
 
 	/* Back button - the background image is white, so set dark text */
-.GEL-OVUBJ2, .GEL-OVUBJ2:focus {               
-	color: #252631 ! important
+.GEL-OVUBJ2, .GEL-OVUBJ2:focus, .GND-IWGDF3, .GND-IWGDFR {               
+	color: #6272a4 ! important
 }
 
-/* Keyboard shortcuts menu */
+/* Keyboard shortcuts menu ------------------------------------------------ */
+.GND-IWGDDY:first-child {
+	border-left: none
+}
+
+.GND-IWGDDY {
+	border-bottom: 1px #282a36 !important
+}
+
 	/* Shortcut conflict warning */
-.GEL-OVUBFX {
+.GEL-OVUBFX ,.GND-IWGDBY{
 	background-color: #ff5555 !important
 }
 	
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX{
-	background-color: #6272a4;
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY {
+	background-color: #6272a4 !important;
 }
 
 
 /* Pacakage updater ----------------------------------------------- */
 /* Rows of table showing package updates, also for keyboard shortcuts */
-.GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GEL-OVUBHX, .GEL-OVUBHY, .GEL-OVUBFHC, .GEL-OVUBDHC {
+.GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GEL-OVUBHX, .GEL-OVUBHY, .GEL-OVUBFHC, .GEL-OVUBDHC , .GND-IWGDCIC, .GND-IWGDCJC, .GND-IWGDDIC, .GND-IWGDDJC {
 	background-color: #282a36;
 	border: none !important;
 	border_bottom: none !important;
@@ -3111,7 +3119,7 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
-.GONVA-ECFWD{
+.GONVA-ECFWD, .GND-IWGDPWD {
     background-color: #252631
 }
 
@@ -3151,11 +3159,7 @@ input#rstudio_command_palette_search {
     margin-left: 5px;
 }
 
-.GEL-OVUBB4B{
-	background-color: #252631;
-}
-
-.GEL-OVUBG4B{
+.GEL-OVUBB4B,.GEL-OVUBG4B, .GND-IWGDA5B, .GND-IWGDF5B , .GND-IWGDCVD , .GND-IWGDDTD {
 	background-color: #252631;
 }
 
@@ -3200,6 +3204,10 @@ input#rstudio_command_palette_search {
     margin-top: 3px;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+.GND-IWGDBWD {
+	background-color: #252631
 }
 
 .rstudio-themes-flat.editor_dark .ace_editor_theme .GCHYANPCGI {
