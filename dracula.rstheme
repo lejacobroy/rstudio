@@ -2977,6 +2977,9 @@ input#rstudio_command_palette_search {
     color: #f8f8f2;
 }
 
+	background-color: #252631;
+}
+
 /* Choose layout of panels */
 .GCHYANPCKRB td.GCHYANPCKRB, .GND-IWGDMTB td.GND-IWGDMTB {
     background-color: #252631;
@@ -3071,7 +3074,7 @@ input#rstudio_command_palette_search {
 }
 
 	/* Background color below table in package updates */
-.GEL-OVUBBHC {
+.GEL-OVUBBHC, .GND-IWGDEIC {
 	background: #252631;
 }
 
