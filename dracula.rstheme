@@ -1,11 +1,13 @@
 /* rs-theme-name: Dracula */
 /* rs-theme-is-dark: TRUE */
 
+/* Background: #252631 */
+/* Lighter background and borders: #282a36 */
+/* White (text, some buttons) : #f8f8f2 */
+/* Purple (text): #bd93f9
+/* Red (warnings): #ff5555 */
 
-/* Red: #ff5555 */
-/* Normal background: #252631 */
-/* Lighter background: #282a36 */
-/* Selections: #6272a4 */
+/* Selections and highlights: #6272a4 */
 
 
 .ace_gutter {
@@ -2893,14 +2895,20 @@ input#rstudio_command_palette_search {
   border-color: #303140 !important;
 }
 
+/* Various input elements and buttons */
+.linux .gwt-RadioButton input[type="radio"], .windows-highdpi .gwt-RadioButton input[type="radio"] {
+	background-color: #f8f8f2 !important;
+}
+
+
 .rstudio-themes-flat .dialogContent input[type="checkbox"] {
-  background: #303140 !important;
-  color: #f8f8f2 !important;
+  background: #f8f8f2 !important;
+  color: #303140 !important;
 }
 
 .rstudio-themes-flat .dialogContent input[type="checkbox"]:checked::before {
   content: "\2713" !important;
-  color: #f8f8f2 !important;
+  color: #303140 !important;
   vertical-align: top;
   line-height: 1;
   font-weight: 600;
@@ -2977,7 +2985,7 @@ input#rstudio_command_palette_search {
     color: #f8f8f2;
 }
 
-
+/* Open file selector */
 .GND-IWGDAJ, .GND-IWGDDJ {
 	background-color: #252631;
 }
