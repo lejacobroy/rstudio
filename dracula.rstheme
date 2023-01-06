@@ -2977,6 +2977,10 @@ input#rstudio_command_palette_search {
     color: #f8f8f2;
 }
 
+.GND-IWGDAJ, .GND-IWGDDJ {
+	background-color: #252631;
+}
+
 /* Choose layout of panels */
 .GCHYANPCKRB td.GCHYANPCKRB, .GND-IWGDMTB td.GND-IWGDMTB {
     background-color: #252631;
@@ -3055,7 +3059,7 @@ input#rstudio_command_palette_search {
 
 /* Pacakage updater ----------------------------------------------- */
 /* Rows of table showing package updates, also for keyboard shortcuts */
-.GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GEL-OVUBHX, .GEL-OVUBHY, .GEL-OVUBFHC, .GEL-OVUBDHC , .GND-IWGDCIC, .GND-IWGDCJC, .GND-IWGDDIC, .GND-IWGDDJC {
+.GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GEL-OVUBHX, .GEL-OVUBHY, .GEL-OVUBFHC, .GEL-OVUBDHC , .GND-IWGDCIC, .GND-IWGDCJC, .GND-IWGDGIC, .GND-IWGDDIC, .GND-IWGDDJC {
 	background-color: #282a36;
 	border: none !important;
 	border_bottom: none !important;
@@ -3071,7 +3075,7 @@ input#rstudio_command_palette_search {
 }
 
 	/* Background color below table in package updates */
-.GEL-OVUBBHC {
+.GEL-OVUBBHC, .GND-IWGDEIC {
 	background: #252631;
 }
 
