@@ -2977,6 +2977,7 @@ input#rstudio_command_palette_search {
     color: #f8f8f2;
 }
 
+
 .GND-IWGDAJ, .GND-IWGDDJ {
 	background-color: #252631;
 }
