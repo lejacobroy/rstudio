@@ -3066,7 +3066,7 @@ input#rstudio_command_palette_search {
 }
 
 	/* Shortcut conflict warning */
-.GEL-OVUBFX ,.GND-IWGDBY{
+.GEL-OVUBFX ,.GND-IWGDBYm, .GND-IWGDN-, .GND-IWGDBY {
 	background-color: #ff5555 !important
 }
 	
