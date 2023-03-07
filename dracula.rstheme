@@ -3048,7 +3048,7 @@ input#rstudio_command_palette_search {
 
 
 	/* Back button - the background image is white, so set dark text */
-.GEL-OVUBJ2, .GEL-OVUBJ2:focus, .GND-IWGDFR, .GND-IWGDFR:focus {               
+.GEL-OVUBJ2, .GEL-OVUBJ2:focus, .gwt-Label.GND-IWGDF3.GND-IWGDFR {               
 	color: #303140 ! important;
 }
 
