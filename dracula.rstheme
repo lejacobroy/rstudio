@@ -2824,6 +2824,7 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat .dataGridHeader {
   /* outer border */
   border-color: #303140 !important;
+  background: none !important;
 }
 
 .rstudio-themes-flat .dialogContent > table div,
