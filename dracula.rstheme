@@ -1,11 +1,11 @@
 /* rs-theme-name: Dracula */
 /* rs-theme-is-dark: TRUE */
 
-/* Background: #252631 */
-/* Lighter background: #282a36 */
-/* Text highlight: #666987 */
+/* Application background and active line: #252631 */
+/* Pane background (main): #282a36 */
+/* Text highlight: #44475a */
 /* Borders and selected menu items : #303140 */
-/* Selections and highlights: #6272a4 */
+/* Comments: #6272a4 */
 /* White (text, some buttons) : #f8f8f2 */
 /* Purple (text): #bd93f9
 /* Red (warnings): #ff5555 */
@@ -60,7 +60,7 @@
 }
 
 .ace_marker-layer .ace_selection {
-  background: #66698780;
+  background: #44475a;
 }
 
 .ace_marker-layer .ace_step {
@@ -113,7 +113,7 @@
 }
 
 .ace_active-line ~ .ace_selection.ace_start {
-  background-color: ##666987;
+  background-color: #44475a;
 }
 
 .ace_keyword {
