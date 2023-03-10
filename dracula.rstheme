@@ -3068,13 +3068,13 @@ input#rstudio_command_palette_search {
 }
 
 	/* Shortcut conflict warning */
-.GEL-OVUBFX ,.GND-IWGDBYm, .GND-IWGDN-, .GND-IWGDBY {
+.GND-IWGDBYm, .GND-IWGDBY {
 	background-color: #ff5555 !important
 }
 	
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY {
-	background-color: #6272a4 !important;
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN- {
+	background-color: #44475a !important;
 }
 
 
