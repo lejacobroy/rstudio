@@ -3118,7 +3118,6 @@ input#rstudio_command_palette_search {
 	border: none !important;
 }
 
-
 	/* Remove white borders from package updater */
 .GEL-OVUBEHC , .GEL-OVUBEIC , .GND-IWGDHJC {
 	border: none;
@@ -3129,26 +3128,21 @@ input#rstudio_command_palette_search {
 	background: #252631;
 }
 
-/* Quit R - Unsaved files warning window */
+/* Quit R - Unsaved files warning window --------------------------------------- */
 /* Empty space in file list */
-.GEL-OVUBFUB, .GEL-OVUBFVB, .GEL-OVUBHVB {
+.GEL-OVUBFUB, .GEL-OVUBFVB, .GEL-OVUBHVB, .GEL-OVUBHUB, .GEL-OVUBOUB, .GEL-OVUBJVB, .GEL-OVUBBVB, .GND-IWGDDVB, .GND-IWGDKVB, .GND-IWGDFWB, .GND-IWGDNVB {
 	background-color: #252631 !important;
 	border: none;
 }
 
-
-.GEL-OVUBAWB, .GEL-OVUBCWB{
-	background-color: #252631 !important;
+.GEL-OVUBAWB, .GEL-OVUBCWB, .GND-IWGDDWB{
+	background-color: #282a36 !important;
+  border: none;
 }
 
-/* Rows with unsaved files */
-.GEL-OVUBHUB, .GEL-OVUBOUB, .GEL-OVUBJVB, .GEL-OVUBBVB {
-	background-color: #252631 !important;
-	border: none;
-}
-
-/* Individual row cells - remove white border */
-.GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB , .GEL-OVUBIUB, .GEL-OVUBPUB, .GEL-OVUBKVB, .GEL-OVUBCVB, .GEL-OVUBAVB {
+/* Individual cells - remove white border */
+.GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB , .GEL-OVUBIUB, .GEL-OVUBPUB, .GEL-OVUBKVB, .GEL-OVUBCVB, .GEL-OVUBAVB,
+.GND-IWGDEVB, .GND-IWGDLVB, .GND-IWGDGWB, .GND-IWGDOVB, .GND-IWGDMVB  {
 	border: none;
 }
 
