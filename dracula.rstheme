@@ -464,6 +464,13 @@ table.rstheme_tabLayoutCenter .gwt-Label,
     border-color: #21222c;
 }
 
+/* Data structure preview pop up panels */
+.GND-IWGDM4B ul li {
+  background: #282a36 !important;
+  color: #f8f8f2 !important;
+  border: #303140;
+}
+
 /* scrollbars */
 .rstudio-themes-flat {
   /* Works on Firefox */
@@ -2994,6 +3001,8 @@ input#rstudio_command_palette_search {
     color: #f8f8f2;
 }
 
+/* 
+
 /* Open file selector */
 .GND-IWGDAJ, .GND-IWGDDJ {
 	background-color: #252631;
@@ -3082,14 +3091,29 @@ input#rstudio_command_palette_search {
 
 
 /* Pacakage updater ----------------------------------------------- */
+/* Header */
+.GND-IWGDBJC {
+  border-bottom: 1px solid #303140;
+  border-right: 1px solid #303140;
+  border-top: 1px solid #303140;
+  border-left: 1px solid #303140;
+  padding: 1px 2px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 11px;
+  color: #f8f8f2;
+  background-color: #282a36;
+  overflow: hidden;
+  cursor: default;
+}
 /* Rows of table showing package updates - darker rows*/
-GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC {
+.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC {
 	background-color: #252631;
 	border: none !important;
 }
 
 /* Rows of table showing package updates - lighter rows*/
-.GND-IWGDGJC, .GEL-OVUBHX .GND-IWGDCJC, .GEL-OVUBHY .GND-IWGDDJC, .GEL-OVUBFHC .GND-IWGDGJC, .GEL-OVUBDHC .GND-IWGDCJC {
+.GND-IWGDGJC, .GEL-OVUBHX .GND-IWGDCJC, .GEL-OVUBHY .GND-IWGDDJC, .GEL-OVUBFHC .GND-IWGDGJC, .GEL-OVUBDHC .GND-IWGDCJC .GND-IWGDLJC .GND-IWGDMJC {
 	background-color: #282a36;
 	border: none !important;
 }
