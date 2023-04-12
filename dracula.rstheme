@@ -3113,7 +3113,7 @@ input#rstudio_command_palette_search {
 }
 
 /* Rows of table showing package updates - lighter rows*/
-.GND-IWGDGJC, .GEL-OVUBHX .GND-IWGDCJC, .GEL-OVUBHY .GND-IWGDDJC, .GEL-OVUBFHC .GND-IWGDGJC, .GEL-OVUBDHC .GND-IWGDCJC .GND-IWGDLJC .GND-IWGDMJC {
+.GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC {
 	background-color: #282a36;
 	border: none !important;
 }
@@ -3142,7 +3142,7 @@ input#rstudio_command_palette_search {
 
 /* Individual cells - remove white border */
 .GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB , .GEL-OVUBIUB, .GEL-OVUBPUB, .GEL-OVUBKVB, .GEL-OVUBCVB, .GEL-OVUBAVB,
-.GND-IWGDEVB, .GND-IWGDLVB, .GND-IWGDGWB, .GND-IWGDOVB, .GND-IWGDMVB  {
+.GND-IWGDEVB, .GND-IWGDLVB, .GND-IWGDGWB, .GND-IWGDOVB, .GND-IWGDMVB, .GND-IWGDMJC  {
 	border: none;
 }
 
