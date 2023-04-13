@@ -1,8 +1,10 @@
 /* rs-theme-name: Dracula */
 /* rs-theme-is-dark: TRUE */
 
-/* Application background and active line: #252631 */
-/* Pane background (main): #282a36 */
+/* Application background: #191a21 */
+/* Pane background: #282a36 */
+/* Active pane tab, menus and active line: #252631 */
+/* Pane headers and inactive tabs: #20222c */
 /* Text highlight: #44475a */
 /* Borders and selected menu items : #303140 */
 /* Comments: #6272a4 */
@@ -284,7 +286,7 @@
 /* ---- RStudio Theme ---- */
 /* background */
 .rstudio-themes-flat .rstudio-themes-dark-grey {
-  background: #252631 !important;
+  background: #1a1e24!important;
   color: #f8f8f2 !important;
   /* collapsed toolbar on rstudio server */
 }
@@ -301,13 +303,6 @@
 
 .rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border {
   border-color: #282A36;
-}
-
-/* inactive tabs */
-table.rstheme_tabLayoutCenter,
-.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs,
-.rstheme_multiPodUtilityTabArea {
-  background: #252631 !important;
 }
 
 table.rstheme_tabLayoutCenter .gwt-Label,
@@ -358,7 +353,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 /* pane toolbars */
-.rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader, .GND-IWGDMIC {
+.rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader {
   background: #252631 !important;
   border: solid 1px #303140;
   color: #f8f8f2;
@@ -561,9 +556,10 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 /* tabs container */
 .rstudio-themes-dark .gwt-TabLayoutPanelTabs,
 .rstudio-themes-dark .windowframe,
-.rstudio-themes-dark :-webkit-any(.rstheme_multiPodUtilityTabArea, .GD15MCFCCS, .GJQ3LUQCCS) {
-  background: #252631 !important;
-  border-color: #252631 !important;
+.rstudio-themes-dark :-webkit-any(.rstheme_multiPodUtilityTabArea, .GD15MCFCCS, .GJQ3LUQCCS),
+.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel > div[aria-hidden="true"] + div {
+  background: #21222b !important;
+  border: none !important;
 }
 
 /* tabs */
@@ -572,6 +568,14 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   border-color: #252631 !important;
   border-right: 1px solid #252631 !important;
   border-radius: 0;
+}
+
+/* inactive tabs */
+table.rstheme_tabLayoutCenter,
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs,
+.rstheme_multiPodUtilityTabArea {
+  background: #20222c !important;
+  border-color: #20222c !important;
 }
 
 /* active tab */
@@ -3110,7 +3114,7 @@ input#rstudio_command_palette_search {
   cursor: default;
 }
 /* Rows of table showing package updates - darker rows*/
-.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC {
+.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC {
 	background-color: #252631;
 	border: none !important;
 }
