@@ -278,6 +278,9 @@
   background: #464B5D80;
 }
 
+#errorWrapper {
+  background-color:  #303140;
+}
 /* ---- RStudio Theme ---- */
 /* background */
 .rstudio-themes-flat .rstudio-themes-dark-grey {
