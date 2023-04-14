@@ -2,8 +2,8 @@
 /* rs-theme-is-dark: TRUE */
 
 /* Application background: #191a21 */
-/* Pane background: #282a36 */
-/* Active pane tab, menus and active line: #252631 */
+/* Pane background. Dark rows in tables: #282a36 */
+/* Active pane tab, menus and active line. Light rows in tables: #252631 */
 /* Pane headers and inactive tabs: #20222c */
 /* Text highlight: #44475a */
 /* Borders and selected menu items : #303140 */
@@ -3134,6 +3134,37 @@ input#rstudio_command_palette_search {
 .GEL-OVUBBHC, .GND-IWGDEIC {
 	background: #252631;
 }
+
+/* Addin list ------------------------------------------------------------------ */
+/* Header */
+.GND-IWGDBJC {
+  border-bottom: 1px solid #303140;
+  border-right: 1px solid #303140;
+  border-top: 1px solid #303140;
+  border-left: 1px solid #303140;
+  padding: 1px 2px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 11px;
+  color: #f8f8f2;
+  background-color: #282a36;
+  overflow: hidden;
+  cursor: default;
+}
+
+/* Dark rows */
+.GND-IWGDHPB > .GND-IWGDGPB {
+  background-color: #252631;
+  border-bottom: none
+}
+
+/* Light rows */
+.GND-IWGDGQB > .GND-IWGDGPB {
+  background-color: #282a36;
+  border-bottom: none
+}
+
+/* Ligher rows */
 
 /* Quit R - Unsaved files warning window --------------------------------------- */
 /* Empty space in file list */
