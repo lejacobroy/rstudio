@@ -392,13 +392,13 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 
 .rstudio-themes-flat .popupContent {
   background: #282A36;
-  color: #f8f8f2;
+  color: #f8f8f2 !important;
   border-color: #252631;
 }
 
 /* Inline Rmarkdown popup */
-.GEL-OVUBBRC {
-	color: #f8f8f2 !important;
+.GEL-OVUBBRC, .GND-IWGDLSC {
+	color: #f8f8f2;
 }
 
 .rstudio-themes-flat .popupContent:not(.popupMiddleCenterInner) div div:nth-child(2) {
