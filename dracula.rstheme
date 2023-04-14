@@ -2950,6 +2950,10 @@ input#rstudio_command_palette_search {
   font-weight: 600;
 }
 
+.gwt-DialogBox input[type="text"] {
+  background-color: transparent !important;
+}
+
 .rstudio-themes-flat .dialogContent select {
   background: #303140 !important;
   color: #f8f8f2 !important;
