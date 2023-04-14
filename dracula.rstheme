@@ -13,6 +13,7 @@
 /* Red (warnings): #ff5555 */
 
 
+
 .ace_gutter {
   background: #282A36;
   color: #4b5578;
@@ -360,7 +361,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 /* pane toolbars */
-.rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader, .GND-IWGDMIC {
+.rstheme_secondaryToolbar {
   background: #252631 !important;
   border: solid 1px #303140;
   color: #f8f8f2;
@@ -429,11 +430,25 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 /* datagrid */
-.rstudio-themes-dark .dataGridHeader,
 .rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th),
 .rstudio-themes-dark .dataTables_info {
   background-color: #282A36 !important;
   border-color: #252631 !important;
+}
+
+.rstudio-themes-flat .dataGridHeader, .rstudio-themes-dark .dataGridHeader  {
+  border-bottom: 1px solid #303140;
+  border-right: 1px solid #303140;
+  border-top: 1px solid #303140;
+  border-left: 1px solid #303140;
+  padding: 1px 2px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 11px;
+  color: #f8f8f2;
+  background-color: #282a36 !important;
+  overflow: hidden;
+  cursor: default;
 }
 
 /* hacky toolbars section */
@@ -2707,7 +2722,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   border-radius: 0 !important;
 }
 
-.rstudio-themes-dark .dataGridHeader, .rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th), .rstudio-themes-dark .dataTables_info {
+.rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th), .rstudio-themes-dark .dataTables_info {
   background-color: #252631 !important;
   border-color: #252631 !important;
 }
@@ -2808,8 +2823,7 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] :not(button) > table > tbody > td,
 .rstudio-themes-flat .dialogTopCenter,
 .rstudio-themes-flat .dialogTop,
-.rstudio-themes-flat .dialogMiddle,
-.rstudio-themes-flat .dataGridHeader {
+.rstudio-themes-flat .dialogMiddle {
   background: #252631 !important;
   color: #f8f8f2 !important;
 }
@@ -2834,8 +2848,7 @@ input#rstudio_command_palette_search {
 
 .rstudio-themes-flat [id^="rstudio_dialog"],
 .rstudio-themes-flat .dialogTop .dialogTopCenter,
-.rstudio-themes-flat .gwt-DialogBox-ModalDialog,
-.rstudio-themes-flat .dataGridHeader {
+.rstudio-themes-flat .gwt-DialogBox-ModalDialog {
   /* outer border */
   border-color: #303140 !important;
   background: none !important;
@@ -3096,21 +3109,6 @@ input#rstudio_command_palette_search {
 
 
 /* Pacakage updater ----------------------------------------------- */
-/* Header */
-.GND-IWGDBJC {
-  border-bottom: 1px solid #303140;
-  border-right: 1px solid #303140;
-  border-top: 1px solid #303140;
-  border-left: 1px solid #303140;
-  padding: 1px 2px;
-  text-align: left;
-  font-weight: normal;
-  font-size: 11px;
-  color: #f8f8f2;
-  background-color: #282a36;
-  overflow: hidden;
-  cursor: default;
-}
 /* Rows of table showing package updates - darker rows*/
 .GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC {
 	background-color: #252631;
