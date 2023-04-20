@@ -3116,10 +3116,12 @@ input#rstudio_command_palette_search {
 
 /* Pacakage updater ----------------------------------------------- */
 /* Rows of table showing package updates - darker rows*/
-.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC {
+.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC {
 	background-color: #252631;
 	border: none !important;
 }
+
+
 
 /* Rows of table showing package updates - lighter rows*/
 .GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC {
