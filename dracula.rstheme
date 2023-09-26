@@ -3315,6 +3315,10 @@ code span.fu {
 	border-color: #282a36 !important;
 } 
 
+.pm-default-theme .pm-background-color {
+  background-color: #252631;
+}
+
 /* Navigate sources (left menu)*/
 .pm-default-theme .pm-navigation-tree-item {
 	border-color: #282a36 !important;
