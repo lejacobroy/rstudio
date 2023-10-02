@@ -2856,6 +2856,7 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat .dialogContent > table div,
 .rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] table tbody td {
   border-color: #303140;
+  background-color: #252631;
 }
 
 .rstudio-themes-flat .dialogContent .gwt-TabLayoutPanelTab {
