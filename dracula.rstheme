@@ -2856,7 +2856,6 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat .dialogContent > table div,
 .rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] table tbody td {
   border-color: #303140;
-  background-color: #252631;
 }
 
 .rstudio-themes-flat .dialogContent .gwt-TabLayoutPanelTab {
@@ -3114,7 +3113,7 @@ input#rstudio_command_palette_search {
 
 /* Pacakage updater ----------------------------------------------- */
 /* Rows of table showing package updates - darker rows*/
-.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC {
+.GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC, .GNVWDDMDPJC {
 	background-color: #252631;
 	border: none !important;
 }
@@ -3122,18 +3121,18 @@ input#rstudio_command_palette_search {
 
 
 /* Rows of table showing package updates - lighter rows*/
-.GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC {
+.GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC, .GNVWDDMDPIC {
 	background-color: #282a36;
 	border: none !important;
 }
 
 	/* Remove white borders from package updater */
-.GEL-OVUBEHC , .GEL-OVUBEIC , .GND-IWGDHJC {
+.GEL-OVUBEHC , .GEL-OVUBEIC , .GND-IWGDHJC, .GNVWDDMDAKC, .GNVWDDMDAJC {
 	border: none;
 }
 
 	/* Background color below table in package updates */
-.GEL-OVUBBHC, .GND-IWGDEIC {
+.GEL-OVUBBHC, .GND-IWGDEIC, .GNVWDDMDNIC {
 	background: #252631;
 }
 
