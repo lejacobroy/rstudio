@@ -3091,21 +3091,21 @@ input#rstudio_command_palette_search {
 }
 
 /* Keyboard shortcuts menu ------------------------------------------------ */
-.GND-IWGDDY:first-child {
+.GND-IWGDDY:first-child, .GNVWDDMDEY:first-child {
 	border-left: none
 }
 
-.GND-IWGDDY {
+.GND-IWGDDY, .GNVWDDMDEY {
 	border-bottom: 1px #282a36 !important
 }
 
 	/* Shortcut conflict warning */
-.GND-IWGDBYm, .GND-IWGDBY {
+.GND-IWGDBYm, .GND-IWGDBY, .GNVWDDMDCY {
 	background-color: #ff5555 !important
 }
 	
 	/* Modified keyboard shortcut */
-.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN- {
+.GEL-OVUBGX, .GEL-OVUBB- , .GEL-OVUBB- td, .GEL-OVUBFX, .GND-IWGDCY, .GND-IWGDN-, .GNVWDDMDDY {
 	background-color: #44475a !important;
 }
 
