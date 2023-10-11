@@ -3022,10 +3022,8 @@ input#rstudio_command_palette_search {
     color: #f8f8f2;
 }
 
-/* 
-
 /* Open file selector */
-.GND-IWGDAJ, .GND-IWGDDJ {
+.GND-IWGDAJ, .GND-IWGDDJ, .GNVWDDMDAJ, .GNVWDDMDDJ {
 	background-color: #252631;
 }
 
