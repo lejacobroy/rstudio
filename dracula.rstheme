@@ -3044,6 +3044,15 @@ input#rstudio_command_palette_search {
     border-color: #6a6a6a !important;
 }
 
+/* Warning about package repositories */
+.GNVWDDMDGGD {
+  background-color: #252631;
+}
+
+.GNVWDDMDFGD {
+  color: #6272a4;
+}
+
 /* Switch projects window ------------------------------------------------- */
 .GCHYANPCMUB {
     width: 400px;
@@ -3348,4 +3357,9 @@ code span.fu {
 .rstudio-themes-flat .dialogContent button {
 	background-color: #252631;
 	color: #f8f8f2;
+}
+
+/* Modify hyperlinks */
+a:link, a:hover, a:visited, a:-webkit-any-link {
+  color: #6e6eff !important;
 }
