@@ -477,6 +477,13 @@ table.rstheme_tabLayoutCenter .gwt-Label,
     border-color: #21222c;
 }
 
+.rstudio-themes-dark-menus .GNVWDDMDB5B {
+  color: #f8f8f2;
+  background: #282a36;
+  border: 1px solid #303140;
+}
+
+
 /* Data structure preview pop up panels */
 .GND-IWGDM4B ul li {
   background: #282a36 !important;
