@@ -3186,18 +3186,21 @@ input#rstudio_command_palette_search {
 }
 
 /* Dark rows */
-.GND-IWGDHPB > .GND-IWGDGPB {
+.GNVWDDMDHQB, .GND-IWGDHPB > .GND-IWGDGPB {
   background-color: #252631;
   border-bottom: none
 }
 
 /* Light rows */
-.GND-IWGDGQB > .GND-IWGDGPB {
+.GNVWDDMDIPB, .GND-IWGDGQB > .GND-IWGDGPB {
   background-color: #282a36;
   border-bottom: none
 }
 
-/* Ligher rows */
+/* Individual cells -- used to remove borders */
+.GNVWDDMDHPB {
+  border-bottom: none;
+}
 
 /* Quit R - Unsaved files warning window --------------------------------------- */
 /* Empty space in file list */
