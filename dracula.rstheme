@@ -2,8 +2,8 @@
 /* rs-theme-is-dark: TRUE */
 
 /* Application background: #191a21 */
-/* Pane background. Dark rows in tables: #282a36 */
-/* Active pane tab, menus and active line. Light rows in tables: #252631 */
+/* Pane background. Light rows in tables: #282a36 */
+/* Active pane tab, menus and active line. Dark rows in tables: #252631 */
 /* Pane headers and inactive tabs: #20222c */
 /* Text highlight: #44475a */
 /* Borders and selected menu items : #303140 */
@@ -3187,19 +3187,26 @@ input#rstudio_command_palette_search {
 
 /* Quit R - Unsaved files warning window --------------------------------------- */
 /* Empty space in file list */
-.GEL-OVUBFUB, .GEL-OVUBFVB, .GEL-OVUBHVB, .GEL-OVUBHUB, .GEL-OVUBOUB, .GEL-OVUBJVB, .GEL-OVUBBVB, .GND-IWGDDVB, .GND-IWGDKVB, .GND-IWGDFWB, .GND-IWGDNVB {
-	background-color: #252631 !important;
+.GNVWDDMDCX, .GNVWDDMDCXB {
+  background-color: #282a36;
+  border: 1px solid #303140;
+}
+
+/* Light rows */
+.GNVWDDMDHVB, .GNVWDDMDOVB, .GNVWDDMDJWB, .GNVWDDMDBWB {
+	background: #282a36;
 	border: none;
 }
 
-.GEL-OVUBAWB, .GEL-OVUBCWB, .GND-IWGDDWB{
-	background-color: #282a36 !important;
-  border: none;
+/* Dark rows */ 
+.GNVWDDMDHWB {
+  background-color: #252631;
+	border: none;
 }
 
-/* Individual cells - remove white border */
+/* Individual row cells - remove white borders */
 .GEL-OVUBGUB, .GEL-OVUBNUB, .GEL-OVUBIVB, .GEL-OVUBAVB, .GEL-OVUBOUB , .GEL-OVUBIUB, .GEL-OVUBPUB, .GEL-OVUBKVB, .GEL-OVUBCVB, .GEL-OVUBAVB,
-.GND-IWGDEVB, .GND-IWGDLVB, .GND-IWGDGWB, .GND-IWGDOVB, .GND-IWGDMVB, .GND-IWGDMJC  {
+.GND-IWGDEVB, .GND-IWGDLVB, .GND-IWGDGWB, .GND-IWGDOVB, .GND-IWGDMVB, .GND-IWGDMJC , .GNVWDDMDIVB, .GNVWDDMDPVB, .GNVWDDMDKWB, .GNVWDDMDCWB, .GNVWDDMDAWB {
 	border: none;
 }
 
