@@ -2,8 +2,8 @@
 /* rs-theme-is-dark: TRUE */
 
 /* Application background: #191a21 */
-/* Pane background. Light rows in tables: #282a36 */
-/* Active pane tab, menus and active line. Dark rows in tables: #252631 */
+/* Panes background. Light rows in tables: #282a36 */
+/* Active tabs, menus and active line. Dark rows in tables: #252631 */
 /* Pane headers and inactive tabs: #20222c */
 /* Text highlight: #44475a */
 /* Borders and selected menu items : #303140 */
@@ -299,7 +299,7 @@
 .rstudio-themes-flat .rstudio-themes-dark-grey [role="banner"] + [role="navigation"] > table > tbody > tr > td,
 .rstudio-themes-flat .rstudio-themes-dark-grey header + [role="navigation"] > table > tbody > tr > td {
   background: #252631;
-  border-color: #282A36;
+  border-color: #303140;
 }
 
 .rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border {
@@ -426,7 +426,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 .rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th),
 .rstudio-themes-dark .dataTables_info {
   background-color: #282A36 !important;
-  border-color: #252631 !important;
+  border-color: #303140 !important;
 }
 
 .rstudio-themes-flat .dataGridHeader, .rstudio-themes-dark .dataGridHeader  {
@@ -439,7 +439,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   font-weight: normal;
   font-size: 11px;
   color: #f8f8f2;
-  background-color: #282a36 !important;
+  background-color: #252631 !important;
   overflow: hidden;
   cursor: default;
 }
@@ -3130,13 +3130,27 @@ input#rstudio_command_palette_search {
 
 
 /* Package updater ----------------------------------------------- */
+/* Header */
+.GNVWDDMDFJC {
+  border-bottom: 1px solid #303140;
+  border-right: 1px solid #303140;
+  border-top: 1px solid #303140;
+  border-left: 1px solid #303140;
+  padding: 1px 2px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 11px;
+  color: #f8f8f2;
+  background-color: #252631 !important;
+  overflow: hidden;
+  cursor: default;
+}
+
 /* Rows of table showing package updates - darker rows*/
 .GND-IWGDGIC, .GEL-OVUBIX, .GEL-OVUBIY, .GEL-OVUBFIC, .GEL-OVUBDIC, .GND-IWGDCIC, .GND-IWGDDIC, .GND-IWGDHIC, .GND-IWGDMIC, .GND-IWGDCKC, .GNVWDDMDPJC {
 	background-color: #252631;
 	border: none !important;
 }
-
-
 
 /* Rows of table showing package updates - lighter rows*/
 .GND-IWGDGJC, .GEL-OVUBHX, .GND-IWGDCJC, .GEL-OVUBHY, .GND-IWGDDJC, .GEL-OVUBFHC, .GND-IWGDGJC, .GEL-OVUBDHC, .GND-IWGDCJC, .GND-IWGDLJC, .GNVWDDMDPIC {
