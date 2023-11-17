@@ -3344,11 +3344,6 @@ input#rstudio_command_palette_search {
     color: #f8f8f2;
 }
 
-/* Vignette code color ----------------------------------------------------- */
-code span.fu {
-	color: #FAFBFF;
-}
-
 /* Insert citations - visual markdown editor -------------------------------- */
 
 .pm-navigation-tree, .pm-insert-citation-source-panel-list, .pm-tag-input-container, .pm-textinput-container {
