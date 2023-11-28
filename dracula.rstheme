@@ -63,7 +63,7 @@
 }
 
 .ace_marker-layer .ace_selection {
-  background: #44475a !important;
+  background: #bd93f980;
 }
 
 .ace_marker-layer .ace_step {
@@ -80,7 +80,7 @@
 }
 
 .ace_marker-layer .ace_selected-word {
-  background-color: #44475a !important;
+  background-color: #bd93f980;
 }
 
 .ace_marker-layer .ace_foreign_line {
@@ -3343,7 +3343,6 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat.editor_dark .ace_editor_theme .GCHYANPCGI {
     color: #f8f8f2;
 }
-
 /* Insert citations - visual markdown editor -------------------------------- */
 
 .pm-navigation-tree, .pm-insert-citation-source-panel-list, .pm-tag-input-container, .pm-textinput-container {
