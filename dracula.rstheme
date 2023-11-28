@@ -3343,6 +3343,7 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat.editor_dark .ace_editor_theme .GCHYANPCGI {
     color: #f8f8f2;
 }
+
 /* Insert citations - visual markdown editor -------------------------------- */
 
 .pm-navigation-tree, .pm-insert-citation-source-panel-list, .pm-tag-input-container, .pm-textinput-container {
@@ -3388,3 +3389,4 @@ input#rstudio_command_palette_search {
 a:link, a:hover, a:visited, a:-webkit-any-link {
   color: #6e6eff !important;
 }
+
