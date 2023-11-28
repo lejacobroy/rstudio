@@ -1,5 +1,10 @@
 # Dracula for [RStudio](https://www.rstudio.com/)
+Since it was unmaintained, i merged all the fixes of the official theme into this one.
+Thank to the following contributors:
 
+- https://github.com/MarcioFCMartins/rstudio/
+- https://github.com/sellth/rstudio/
+  
 > A dark theme for [RStudio](https://www.rstudio.com/).
 
 ![Screenshot](./screenshot.png)
